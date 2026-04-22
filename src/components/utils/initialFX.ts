@@ -1,4 +1,5 @@
 import { SplitText } from "gsap/SplitText";
+import { scrollsmoother } from "gsap/scrollsmoother";
 import gsap from "gsap";
 import { smoother } from "../Navbar";
 
