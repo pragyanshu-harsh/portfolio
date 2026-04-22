@@ -96,8 +96,11 @@ body {
   position: relative;
   height: var(--vh);
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: -100px;
+  padding-top: 50px;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  background-color: var(--backgroundColor);
+  z-index: 10;
 }
 
 .techstack h2 {
